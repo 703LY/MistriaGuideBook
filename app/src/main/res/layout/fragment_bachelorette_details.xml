@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="20dp"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:paddingBottom="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp">
+
+        <ImageView
+            android:id="@+id/characterDetailImage"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_marginBottom="16dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/relationship_icon"/>
+
+        <TextView
+            android:id="@+id/characterDetailName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Character Name"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/characterDetailDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Character Description"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/characterDetailBirthday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Birthday: Spring 5"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/characterGiftsTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gift Preferences"
+            android:textSize="20sp"
+            android:layout_marginTop="12dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/characterDetailLovedGifts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Loved Gifts: Item1, Item2"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/characterDetailLikedGifts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Liked Gifts: Item3, Item4"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/characterDetailNeutralGifts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Neutral Gifts: Item5, Item6"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/characterDetailHatedGifts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hated Gifts: Item7, Item8" />
+    </LinearLayout>
+</ScrollView>

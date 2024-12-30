@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/people"
+        android:title="People"
+        android:icon="@drawable/relationship_icon"/>
+    <item
+        android:id="@+id/crops"
+        android:title="Crops"
+        android:icon="@drawable/crops_icon"/>
+
+    <item
+        android:id="@+id/museum"
+        android:title="Museum"
+        android:icon="@drawable/museum_icon"/>
+    <item
+        android:id="@+id/combat"
+        android:title="Combat"
+        android:icon="@drawable/combats_icon"/>
+
+    <item
+        android:id="@+id/forumkosongan"
+        android:enabled="false"
+        android:title=""/>
+</menu>

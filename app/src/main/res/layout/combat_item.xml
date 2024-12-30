@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="6dp"
+    android:elevation="6dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/combats_icon"
+            android:layout_centerVertical="true"
+            android:id="@+id/imageview1"
+            />
+        <!--            app:civ_border_width="1dp"-->
+        <!--            app:civ_border_color="@color/deep_cocoa_brown"-->
+
+        <TextView
+            android:id="@+id/combat_nameTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="3dp"
+            android:layout_toEndOf="@+id/imageview1"
+            android:text="Monster Name"
+            android:textSize="16sp"
+            android:fontFamily="@font/poppins_regular"/>
+
+        <TextView
+            android:id="@+id/combat_hptitik"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/combat_nameTV"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="3dp"
+            android:layout_toEndOf="@+id/imageview1"
+            android:text="HP: "
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/poppins_regular"/>
+
+        <TextView
+            android:id="@+id/combat_hpTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/combat_nameTV"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_toEndOf="@+id/combat_hptitik"
+            android:text="hp"
+            android:textSize="16sp"
+            android:fontFamily="@font/poppins_regular"/>
+
+        <TextView
+            android:id="@+id/combat_dmgtitik"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/combat_nameTV"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="3dp"
+            android:layout_toEndOf="@id/combat_hpTV"
+            android:text="DMG: "
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/poppins_regular"/>
+
+        <TextView
+            android:id="@+id/combat_dmgTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/combat_nameTV"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_toEndOf="@id/combat_dmgtitik"
+            android:text="dmg"
+            android:textSize="16sp"
+            android:fontFamily="@font/poppins_regular"/>
+
+        <TextView
+            android:id="@+id/combat_dropstitik"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/combat_hptitik"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="3dp"
+            android:layout_toEndOf="@id/imageview1"
+            android:text="Drops: "
+            android:textSize="16sp"
+            android:fontFamily="@font/poppins_regular"/>
+
+        <TextView
+            android:id="@+id/combat_dropsTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/combat_hptitik"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_toEndOf="@id/combat_dropstitik"
+            android:text="drop1, drop2"
+            android:textSize="16sp"
+            android:fontFamily="@font/poppins_regular"/>
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

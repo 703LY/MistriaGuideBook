@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/addframelayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddPostFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/textViewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/post_titleET"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Enter title here"
+            android:layout_marginBottom="30dp"
+            android:imeOptions="flagNoExtractUi|actionDone"
+            android:inputType="textCapSentences|text" />
+
+        <TextView
+            android:id="@+id/textViewContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Content"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/post_contentET"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:hint="Write your content here..."
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:imeOptions="flagNoExtractUi|actionDone"
+            android:layout_marginBottom="50dp" />
+
+        <Button
+            android:id="@+id/submitBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="@color/leafy_green"
+            android:textColor="@color/warm_sand_beige"
+            android:padding="10dp" />
+
+    </LinearLayout>
+
+</FrameLayout>

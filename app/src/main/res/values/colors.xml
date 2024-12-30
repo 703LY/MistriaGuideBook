@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="warm_sand_beige">#F4ECD8</color>
+    <color name="soft_woodland_brown">#D7C3A3</color>
+    <color name="deep_cocoa_brown">#4A3823</color>
+    <color name="earthy_chestnut">#705A3E</color>
+    <color name="peach_blossom">#F3A572</color>
+    <color name="leafy_green">#79A881</color>
+    <color name="rose_blush">#E98686</color>
+    <color name="sunlit_gold">#FFD76A</color>
+    <color name="enchanted_lavender">#9A89D3</color>
+    <color name="soft_stone_gray">#B3A287</color>
+    <color name="faded_earth">#A08C76</color>
+
+</resources>

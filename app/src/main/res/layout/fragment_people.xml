@@ -1,0 +1,51 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Toggle Buttons for Fragments -->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:text="Characters"
+        android:textSize="20sp"
+        android:fontFamily="@font/poppins_regular" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="8dp">
+
+        <Button
+            android:id="@+id/bachelorButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bachelors"
+            android:fontFamily="@font/poppins_regular"
+            android:backgroundTint="@color/leafy_green"
+            android:textColor="@android:color/white"
+            android:layout_marginEnd="8dp" />
+
+        <Button
+            android:id="@+id/bacheloretteButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bachelorettes"
+            android:fontFamily="@font/poppins_regular"
+            android:backgroundTint="@color/leafy_green"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+    <!-- Fragment Container -->
+    <FrameLayout
+        android:id="@+id/fragmentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AndroidGameGuide</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="museum">museum</string>
+    <string name="combat_fragment">combat fragment</string>
+    <string name="open_forum">Open Forum</string>
+
+    <string name="hp_placeholder">HP: %1$d</string>
+    <string name="damage_placeholder">Damage: %1$d</string>
+    <string name="drops_placeholder">Drops: %1$s</string>
+</resources>
