@@ -5,21 +5,26 @@ I used Android studio jellyfish (Java) as the IDE and Firebase Firestore as the 
 Here is the preview of the app
 
 ## Bachelorettes Page
-<img src="screenshot/bachelorettes.png" width="400" alt="Bachelorettes">
+<img src="screenshots/bachelorettes.png" width="280" alt="Bachelorettes">
 
 ## Bachelorettes Details
-<img src="screenshot/bachelorettes_detail.png" width="400" alt="Bachelorettes detail">
+<img src="screenshots/bachelorettes_detail.png" width="280" alt="Bachelorettes detail">
+
+## Bachelors
+<img src="screenshots/bachelors.png" width="280" alt="Bachelor detail">
 
 ## Bachelors Details
-<img src="screenshot/bachelor_detail1.png" width="400" alt="Bachelor detail">
+<img src="screenshots/bachelor_detail1.png" width="280" alt="Bachelor detail">
 
 ## Combats
-<img src="screenshot/combat.pn" width="400" alt="combat">
+<img src="screenshots/combat.png" width="280" alt="combat">
 
 ## Crops
-<img src="screenshot/crops.png" width="400" alt="crops">
+<img src="screenshots/crops.png" width="280" alt="crops">
 
 ## Museum
-<img src="screenshot/museum.png" width="400" alt="museum">\
+<img src="screenshots/museum.png" width="280" alt="museum">
 
 ## Forum
+<img src="screenshots/forum.png" width="280" alt="museum">
+
